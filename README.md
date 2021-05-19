@@ -10,7 +10,7 @@
     M = modify or hold files
     S = solve a problem
 
-    For example: add comments, delete the EXE file, create a new file, then write as xdn
+    For example: add comments, delete the EXE file, create a new file, then write as X xxx & D xxx & N xxx
 
 ### 中文:
     X = 修改一些细节
@@ -19,4 +19,4 @@
     M = 修改或暂存文件
     S = 通过一道题目
     
-    如: 本次提交添加注释、删除了exe文件、新建了一个文件，则写为 XDN
+    如: 本次提交添加注释、删除了exe文件、新建了一个文件，则写为 X xxx & D xxx & N xxx

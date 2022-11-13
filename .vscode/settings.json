@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "optional": "cpp",
+        "functional": "cpp",
+        "future": "cpp",
+        "iosfwd": "cpp",
+        "stdexcept": "cpp",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp"
+    }
+}

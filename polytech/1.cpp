@@ -62,7 +62,8 @@ void mod(ll F[],ll G[],ll a[],ll b[],int n,int m){  // F=ag+b, G[m-1]!=0, dest F
     reverse(F,F+n);reverse(G,G+m);
     static ll r[N];
     for(int i=n-m+1;i<m;i++) G[i]=0;
-    n=m=upp(n+m);inv(G,r,n);
+    inv(G,r,n-m+1);
+    for(int i=n-m+1;i<m;i++) r[i]=0;
     NTT(F,n,1);NTT(r,n,1);
     for(int i=0;i<n;i++) a[i]=F[i]*r[i]%p;
     NTT(a,n,-1);
